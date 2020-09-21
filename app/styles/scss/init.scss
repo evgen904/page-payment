@@ -1,0 +1,90 @@
+@import 'general/_reset';
+
+@font-face {
+	font-family: "PTSans-Regular";
+	src: url("../fonts/PTS55F-webfont.eot");
+	src: url("../fonts/PTS55F-webfont.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/PTS55F-webfont.woff") format("woff"),
+	url("../fonts/PTS55F-webfont.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+body {
+    background: #f6f6f6;
+    font-family: "PTSans-Regular", Arial, sans-serif;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+$widthWrap: 1160px;
+
+.page-payment {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    &--header {
+        height: 60px;
+        background: #fff;
+        display: flex;
+        align-items: center;
+        .logo {
+            width: 174px;
+        }
+    }
+    &--footer {
+        background: #d8d8d8;
+        min-height: 70px;
+        display: flex;
+        align-items: center;
+        .footer-inner {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: #7f7f7f;
+            font-size: 14px;
+            a {
+                color: #7f7f7f;
+                text-decoration: none;
+                &:hover {
+                    text-decoration: none;
+                }
+            }
+            .phone {
+                text-align: center;
+                line-height: 1.6;
+            }
+        }
+    }
+    &--main {
+        flex-grow: 1;
+        display: flex;
+        justify-content: space-between;
+        .content {
+            flex: auto;
+        }
+        .right-column {
+            width: 320px;
+            margin-right: 20px;
+        }
+    }
+    .inner-wrapper {
+        width: 100%;
+        max-width: $widthWrap;
+        margin: 0 auto;
+    }
+    .payment-methods {
+        background: #ffffff;
+        margin-bottom: 2px;
+    }
+    .payment-block {
+        background: #ffffff;
+    }
+    .share-link {
+        background: #ffffff;
+    }
+}
+
+
