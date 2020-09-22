@@ -1,0 +1,65 @@
+<svg height="47px" id="圖層_1" style="height: 100%; width: 100%; background: rgb(241, 242, 243);" version="1.1" viewbox="0 0 100 100" width="47px" x="0" xmlns="http://www.w3.org/2000/svg" y="0">
+    <g class="ldl-scale" style="transform-origin: 50% 50%; transform: rotate(0deg) scale(0.8, 0.8);">
+        <g class="ldl-ani">
+            <g class="ldl-layer">
+                <g class="ldl-ani" style="transform-origin: 50px 50px; opacity: 1; animation: 1.11111s linear -0.617284s infinite normal forwards running fade-0d572015-9ffd-4f95-892d-aa31ec314afa;">
+                    <circle cx="50.5" cy="15.1" fill="#333" r="5.1" style="fill: rgb(111, 167, 89);"></circle>
+                </g>
+            </g>
+            <g class="ldl-layer">
+                <g class="ldl-ani" style="transform-origin: 50px 50px; opacity: 1; animation: 1.11111s linear -0.679012s infinite normal forwards running fade-0d572015-9ffd-4f95-892d-aa31ec314afa;">
+                    <circle cx="75.1" cy="25.7" fill="#333" r="5.1" style="fill: rgb(111, 167, 89);" transform="rotate(-45.001 75.062 25.655)"></circle>
+                </g>
+            </g>
+            <g class="ldl-layer">
+                <g class="ldl-ani" style="transform-origin: 50px 50px; opacity: 1; animation: 1.11111s linear -0.740741s infinite normal forwards running fade-0d572015-9ffd-4f95-892d-aa31ec314afa;">
+                    <circle cx="84.9" cy="50.5" fill="#333" r="5.1" style="fill: rgb(111, 167, 89);"></circle>
+                </g>
+            </g>
+            <g class="ldl-layer">
+                <g class="ldl-ani" style="transform-origin: 50px 50px; opacity: 1; animation: 1.11111s linear -0.802469s infinite normal forwards running fade-0d572015-9ffd-4f95-892d-aa31ec314afa;">
+                    <circle cx="74.3" cy="75.1" fill="#333" r="5.1" style="fill: rgb(111, 167, 89);" transform="rotate(-45.001 74.345 75.063)"></circle>
+                </g>
+            </g>
+            <g class="ldl-layer">
+                <g class="ldl-ani" style="transform-origin: 50px 50px; opacity: 1; animation: 1.11111s linear -0.864198s infinite normal forwards running fade-0d572015-9ffd-4f95-892d-aa31ec314afa;">
+                    <circle cx="49.5" cy="84.9" fill="#333" r="5.1" style="fill: rgb(111, 167, 89);"></circle>
+                </g>
+            </g>
+            <g class="ldl-layer">
+                <g class="ldl-ani" style="transform-origin: 50px 50px; opacity: 1; animation: 1.11111s linear -0.925926s infinite normal forwards running fade-0d572015-9ffd-4f95-892d-aa31ec314afa;">
+                    <circle cx="24.9" cy="74.3" fill="#333" r="5.1" style="fill: rgb(111, 167, 89);" transform="rotate(-45.001 24.937 74.347)"></circle>
+                </g>
+            </g>
+            <g class="ldl-layer">
+                <g class="ldl-ani" style="transform-origin: 50px 50px; opacity: 1; animation: 1.11111s linear -0.987654s infinite normal forwards running fade-0d572015-9ffd-4f95-892d-aa31ec314afa;">
+                    <circle cx="15.1" cy="49.5" fill="#333" r="5.1" style="fill: rgb(111, 167, 89);"></circle>
+                </g>
+            </g>
+            <g class="ldl-layer">
+                <g class="ldl-ani" style="transform-origin: 50px 50px; opacity: 1; animation: 1.11111s linear -1.04938s infinite normal forwards running fade-0d572015-9ffd-4f95-892d-aa31ec314afa;">
+                    <circle cx="25.7" cy="24.9" fill="#333" r="5.1" style="fill: rgb(111, 167, 89);" transform="rotate(-45.001 25.654 24.938)"></circle>
+                </g>
+            </g>
+            <g class="ldl-layer">
+                <g class="ldl-ani" style="transform-origin: 50px 50px; opacity: 1; animation: 1.11111s linear -1.11111s infinite normal forwards running fade-0d572015-9ffd-4f95-892d-aa31ec314afa;">
+                    <path d="M56.7 48.5c3-1.6 4.8-4.3 4.8-7.2v-3.1h1.9c1 0 1.8-.8 1.8-1.8s-.8-1.8-1.8-1.8H37.6c-1 0-1.8.8-1.8 1.8s.8 1.8 1.8 1.8h1.9v3.1c0 2.9 1.8 5.6 4.8 7.2.8.4 1.3 1.1 1.3 1.7v.6c0 .6-.5 1.3-1.3 1.7-3 1.6-4.8 4.3-4.8 7.2v3.1h-1.9c-1 0-1.8.8-1.8 1.8s.8 1.8 1.8 1.8h25.7c1 0 1.8-.8 1.8-1.8s-.8-1.8-1.8-1.8h-1.9v-3.1c0-2.9-1.8-5.6-4.8-7.2-.8-.4-1.3-1.1-1.3-1.7v-.6c.1-.6.5-1.3 1.4-1.7zM55 55.7c1.9 1 3 2.5 3 4.1v3.1H43v-3.1c0-1.6 1.1-3.1 3-4.1 2-1.1 3.2-2.9 3.2-4.8v-.6c0-2-1.2-3.8-3.2-4.8-1.9-1-3-2.5-3-4.1v-3.1h15v3.1c0 1.6-1.1 3.1-3 4.1-2 1.1-3.2 2.9-3.2 4.8v.6c0 1.9 1.2 3.7 3.2 4.8z" fill="#666" style="fill: rgb(111, 167, 89);"></path>
+                </g>
+            </g>
+            <metadata xmlns:d="https://loading.io/stock/">
+                <d:name>
+                    wait
+                </d:name>
+                <d:tags>
+                    wait,spinner,hourglass,loader,preloader,ajax spinner,waiting icon,loading icon,loading gif
+                </d:tags>
+                <d:license>
+                    by
+                </d:license>
+                <d:slug>
+                    tcjp3h
+                </d:slug>
+            </metadata>
+        </g>
+    </g>
+</svg>
