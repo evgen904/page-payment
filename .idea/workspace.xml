@@ -22,25 +22,29 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="html" value="1" />
+          <entry key="js" value="1" />
           <entry key="scss" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="1" />
+          <entry key="JavaScript" value="1" />
           <entry key="SCSS" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="1404" />
-          <entry key="scss" value="3948" />
+          <entry key="html" value="1500" />
+          <entry key="js" value="215" />
+          <entry key="scss" value="4115" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="1404" />
-          <entry key="SCSS" value="3948" />
+          <entry key="HTML" value="1500" />
+          <entry key="JavaScript" value="215" />
+          <entry key="SCSS" value="4115" />
         </counts>
       </usages-collector>
     </session>
@@ -50,8 +54,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="147" lean-forward="true" selection-start-line="147" selection-end-line="147" />
+            <state relative-caret-position="242">
+              <caret line="233" column="46" selection-start-line="233" selection-start-column="32" selection-end-line="233" selection-end-column="46" />
               <folding>
                 <element signature="n#style#0;n#g#0;n#svg#0;n#div#0;n#div#3;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#g#0;n#g#0;n#g#0;n#g#0;n#svg#0;n#div#0;n#div#3;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -77,11 +81,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/styles/scss/init.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="567">
-              <caret line="78" column="13" lean-forward="true" selection-start-line="78" selection-start-column="13" selection-end-line="78" selection-end-column="13" />
+            <state relative-caret-position="502">
+              <caret line="478" column="17" selection-start-line="478" selection-start-column="17" selection-end-line="478" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/scripts/src/_includes/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="460">
+              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
             </state>
           </provider>
         </entry>
@@ -90,10 +103,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>ight-column</find>
-      <find>.content</find>
-      <find>--apply-coupon</find>
-      <find>--loader</find>
       <find>fade-0d572015-9ffd-4f95-892d-aa31ec314afa</find>
       <find>применить бонусы</find>
       <find>checkbox</find>
@@ -102,7 +111,6 @@
       <find>латить счет может любой, у</find>
       <find>.btn</find>
       <find>45</find>
-      <find>Промокод</find>
       <find>Бронирование № 639</find>
       <find>rota</find>
       <find>&amp;:after, &amp;:before {</find>
@@ -113,13 +121,18 @@
       <find>media</find>
       <find>order-payment</find>
       <find>payment-methods</find>
-      <find>booked-object</find>
-      <find>payment-coupon</find>
       <find>btn-green full-width</find>
       <find>payment-block</find>
-      <find>share-link</find>
       <find>payment-processing</find>
       <find>footer</find>
+      <find>hare-link</find>
+      <find>btn-share-link</find>
+      <find>.page-payment</find>
+      <find>share-link</find>
+      <find>Бронирование № 6395845</find>
+      <find>booked-object</find>
+      <find>Промокод</find>
+      <find>payment-coupon</find>
     </findStrings>
     <replaceStrings>
       <replace>fade-loader</replace>
@@ -134,6 +147,7 @@
         <option value="$PROJECT_DIR$/app/styles/scss/general/_reset.scss" />
         <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/styles/scss/init.scss" />
+        <option value="$PROJECT_DIR$/app/scripts/src/_includes/main.js" />
       </list>
     </option>
   </component>
@@ -179,6 +193,27 @@
               <item name="page-payment" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="page-payment" type="b2602c69:ProjectViewProjectNode" />
+              <item name="page-payment" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="page-payment" type="b2602c69:ProjectViewProjectNode" />
+              <item name="page-payment" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="page-payment" type="b2602c69:ProjectViewProjectNode" />
+              <item name="page-payment" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="_includes" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -215,12 +250,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600690570875</updated>
-      <workItem from="1600690575224" duration="30482000" />
+      <workItem from="1600690575224" duration="33117000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30482000" />
+    <option name="totallyTimeSpent" value="33117000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -228,12 +263,12 @@
     <layout>
       <window_info id="Gulp" side_tool="true" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" sideWeight="0.49947312" visible="true" weight="0.14425163" />
-      <window_info active="true" anchor="bottom" id="Event Log" sideWeight="0.50052685" side_tool="true" visible="true" weight="0.14425163" />
+      <window_info anchor="bottom" id="Terminal" sideWeight="0.49947312" visible="true" weight="0.29284164" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.50052685" side_tool="true" visible="true" weight="0.29284164" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -262,8 +297,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="147" lean-forward="true" selection-start-line="147" selection-end-line="147" />
+        <state relative-caret-position="242">
+          <caret line="233" column="46" selection-start-line="233" selection-start-column="32" selection-end-line="233" selection-end-column="46" />
           <folding>
             <element signature="n#style#0;n#g#0;n#svg#0;n#div#0;n#div#3;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#g#0;n#g#0;n#g#0;n#g#0;n#svg#0;n#div#0;n#div#3;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -290,8 +325,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/styles/scss/init.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="78" column="13" lean-forward="true" selection-start-line="78" selection-start-column="13" selection-end-line="78" selection-end-column="13" />
+        <state relative-caret-position="502">
+          <caret line="478" column="17" selection-start-line="478" selection-start-column="17" selection-end-line="478" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/src/_includes/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
         </state>
       </provider>
     </entry>

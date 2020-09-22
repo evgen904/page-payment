@@ -258,6 +258,7 @@ $widthMobile: 640px;
     }
     .share-link {
         display: flex;
+        align-items: flex-start;
         background: #ffffff;
         padding: 20px;
         font-size: 13px;
@@ -315,7 +316,7 @@ $widthMobile: 640px;
             }
         }
         &--modal {
-            display: flex;
+            display: none;
             align-items: center;
             justify-content: center;
             background: #ffffff;
@@ -327,6 +328,9 @@ $widthMobile: 640px;
             transform: translate(-50%, 0);
             padding: 14px 20px;
             margin-top: 10px;
+            &.active {
+                display: flex;
+            }
             @media all and (max-width: $widthMobile) {
                 flex-direction: column;
             }
@@ -459,6 +463,25 @@ $widthMobile: 640px;
         background: #ffffff;
         margin-bottom: 20px;
         padding: 12px 20px 0;
+        &.active {
+            .payment-coupon--body {
+                display: block;
+            }
+            .payment-coupon--title > div.ico-toggle span {
+                &:after {
+                    transform: rotate(45deg);
+                    width: 12px;
+                }
+                &:before {
+                    transform: rotate(-45deg);
+                    margin-left: 0;
+                    width: 12px;
+                }
+            }
+        }
+        &--body {
+            display: none;
+        }
         &--title {
             cursor: pointer;
             display: flex;
@@ -496,17 +519,6 @@ $widthMobile: 640px;
                         &:before {
                             transform: rotate(-45deg);
                             margin-left: 5px;
-                        }
-                        &.close {
-                            &:after {
-                                transform: rotate(45deg);
-                                width: 12px;
-                            }
-                            &:before {
-                                transform: rotate(-45deg);
-                                margin-left: 0;
-                                width: 12px;
-                            }
                         }
                     }
                 }
@@ -553,6 +565,17 @@ $widthMobile: 640px;
     .booked-object {
         background: #ffffff;
         padding: 16px 20px 20px;
+        &--body {
+            display: none;
+        }
+        &.active {
+            .booked-object--body {
+                display: block;
+            }
+            .booked-object--id .ico-toggle span {
+                transform: rotate(180deg);
+            }
+        }
         &--id {
             cursor: pointer;
             font-size: 14px;
@@ -566,7 +589,7 @@ $widthMobile: 640px;
                     width: 14px;
                     height: 14px;
                     position: relative;
-                    transform: rotate(180deg);
+                    transform: rotate(0deg);
                     &:after, &:before {
                         content: '';
                         display: block;
@@ -585,9 +608,6 @@ $widthMobile: 640px;
                     &:before {
                         transform: rotate(-45deg);
                         margin-left: 5px;
-                    }
-                    &.close {
-                        transform: rotate(0deg);
                     }
                 }
             }
@@ -835,5 +855,9 @@ $widthMobile: 640px;
         }
     }
 }
-
+.copy-input {
+    position: absolute;
+    top: -99999px;
+    left: -99999px;
+}
 
