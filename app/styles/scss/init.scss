@@ -109,7 +109,7 @@ $widthMobile: 640px;
             flex-direction: column;
         }
         .content {
-            flex: auto;
+            flex: 1;
             .title-page {
                 font-size: 18px;
                 margin-bottom: 18px;
@@ -165,6 +165,11 @@ $widthMobile: 640px;
             .payment-selection {
                 margin-bottom: 15px;
                 input[type="radio"] {
+                    &:disabled {
+                        + label {
+                            opacity: .56;
+                        }
+                    }
                     &:not(checked) {
                         position: absolute;
                         opacity: 0;
@@ -206,11 +211,20 @@ $widthMobile: 640px;
                                     opacity: 1;
                                 }
                             }
+                            .payment-selection--img {
+                                img {
+                                    filter: grayscale(0%);
+                                    opacity: 1;
+                                }
+                            }
                         }
                     }
                     + label {
                         cursor: pointer;
-                        display: flex;
+                        display: inline-flex;
+                        @media all and (max-width: $widthMobile) {
+                            display: flex;
+                        }
                         .payment-selection--title {
                             display: flex;
                             align-items: center;
@@ -238,14 +252,47 @@ $widthMobile: 640px;
                             }
                             img {
                                 margin-right: 10px;
+                                filter: grayscale(100%);
+                                opacity: .5;
+                                transition: all 0.2s ease;
+                                &.logo-mastercard {
+                                    width: 36px;
+                                }
+                                &.logo-visa {
+                                    width: 52px;
+                                }
+                                &.logo-mir {
+                                    width: 64px;
+                                }
+                                &.logo-sberbank {
+                                    width: 82px;
+                                }
+                                &.logo-google-pay {
+                                    width: 48px;
+                                }
+                                &.logo-apple-pay {
+                                    width: 46px;
+                                }
+                                &.logo-phone-pay {
+                                    width: 24px;
+                                }
                             }
                         }
                     }
                 }
             }
+            .other-payment-methods {
+                overflow: hidden;
+                max-height: 0;
+                transition: max-height 0.8s ease;
+                &.show {
+                    max-height: 300px;
+                }
+            }
         }
         &--all-ways {
             padding-top: 5px;
+            margin-bottom: 20px;
             @media all and (max-width: $widthMobile) {
                 padding-top: 0;
             }
@@ -269,6 +316,7 @@ $widthMobile: 640px;
             }
         }
         &.mobile {
+            display: block;
             padding: 0;
             background: transparent;
             margin-top: 15px;
@@ -812,13 +860,28 @@ $widthMobile: 640px;
         max-width: 530px;
         color: #000000;
         font-size: 14px;
+        @media all and (max-width: $widthMobile) {
+            top: 0;
+            position: fixed;
+            left: 0;
+            height: 100%;
+            margin: 0;
+        }
     }
     &--header {
         font-size: 17px;
         margin-bottom: 16px;
+        padding-right: 20px;
+        @media all and (max-width: $widthMobile) {
+            min-height: 34px;
+        }
     }
     &--body {
         line-height: 1.4;
+        @media all and (max-width: $widthMobile) {
+            overflow: auto;
+            height: calc(100vh - 130px);
+        }
     }
     &--footer {
         display: flex;

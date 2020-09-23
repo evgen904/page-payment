@@ -28,7 +28,7 @@
                         Бронирование № 6395845
                     </div>
                     <div class="order-payment--text">
-                        Внесите предоплату как можно быстрее, пока жилье свободно
+                        Внесите предоплату как можно быстрее, пока жилье не забронировал другой гость
                     </div>
                 </div>
                 <div class="payment-methods">
@@ -36,15 +36,15 @@
                     <div class="payment-methods--title">Способы оплаты</div>
                     <div class="payment-methods--select">
                         <div class="payment-selection">
-                            <input id="payment_method_1" name="payment_id" type="radio" value="1">
+                            <input id="payment_method_1" name="payment_id" type="radio" value="1" checked>
                             <label for="payment_method_1">
                                 <div class="payment-selection--title">
                                     Картой онлайн
                                 </div>
                                 <div class="payment-selection--img">
-                                    <img src="images/mastercard-logo.svg" alt="">
-                                    <img src="images/visa-inc-logo-1.svg" alt="">
-                                    <img src="images/mir-logo-svg.svg" alt="">
+                                    <img class="logo-mastercard" src="images/mastercard-logo.svg" alt="">
+                                    <img class="logo-visa" src="images/visa-logo.svg" alt="">
+                                    <img class="logo-mir" src="images/mir-logo.svg" alt="">
                                 </div>
                             </label>
                         </div>
@@ -55,7 +55,7 @@
                                     Сбербанк Онлайн
                                 </div>
                                 <div class="payment-selection--img">
-                                    <img src="images/logo-sberbank-online.jpg" alt="">
+                                    <img class="logo-sberbank" src="images/sberbank-online.svg" alt="">
                                 </div>
                             </label>
                         </div>
@@ -66,17 +66,66 @@
                                     Apple Pay / Google Pay
                                 </div>
                                 <div class="payment-selection--img">
-                                    <img src="images/google-pay-g-pay-logo.svg" alt="">
-                                    <img src="images/apple-pay-logo.svg" alt="">
+                                    <img class="logo-google-pay" src="images/google-pay-logo.svg" alt="">
+                                    <img class="logo-apple-pay" src="images/apple-pay-logo.svg" alt="">
                                 </div>
                             </label>
                         </div>
                     </div>
                     <div class="payment-methods--all-ways">
-                        <span>
-                            Показать все способы оплаты
+                        <span class="js-show-payment-methods">
+                            Другие способы оплаты
                         </span>
                     </div>
+                    <div class="payment-methods--select">
+                        <div class="js-other-payment other-payment-methods">
+                            <div class="payment-selection">
+                                <input id="payment_method_4" name="payment_id" type="radio" value="4" disabled>
+                                <label for="payment_method_4">
+                                    <div class="payment-selection--title">
+                                        Мобильный телефон (до 5000 P)
+                                    </div>
+                                    <div class="payment-selection--img">
+                                        <img class="logo-phone-pay" src="images/ico-phone-pay.svg" alt="">
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="payment-selection">
+                                <input id="payment_method_5" name="payment_id" type="radio" value="5">
+                                <label for="payment_method_5">
+                                    <div class="payment-selection--title">
+                                        Яндекс.Деньги
+                                    </div>
+                                    <div class="payment-selection--img">
+                                        <img src="images/ico-yandex-money-btn.svg" alt="">
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="payment-selection">
+                                <input id="payment_method_6" name="payment_id" type="radio" value="6">
+                                <label for="payment_method_6">
+                                    <div class="payment-selection--title">
+                                        Qiwi
+                                    </div>
+                                    <div class="payment-selection--img">
+                                        <img src="images/ico-qiwi-btn.svg" alt="">
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="payment-selection">
+                                <input id="payment_method_7" name="payment_id" type="radio" value="7">
+                                <label for="payment_method_7">
+                                    <div class="payment-selection--title">
+                                        Webmoney
+                                    </div>
+                                    <div class="payment-selection--img">
+                                        <img src="images/ico-webmoney-btn.svg" alt="">
+                                    </div>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
 
                     <div class="payment-processing">
                         <div class="payment-processing--loader">
@@ -140,7 +189,7 @@
                             Пожалуйста, дождитесь окончания перевода средств.
                         </div>
                         <div class="payment-processing--cancel">
-                            <span>
+                            <span class="js-refuse-pay">
                                 Отказаться от платежа
                             </span>
                         </div>
@@ -182,7 +231,7 @@
                         </div>
                         <div class="price">
                             <div class="price--title">
-                                Средства на счету
+                                Будет списано с баланса
                             </div>
                             <div class="price--val">
                                 -13 ₽
@@ -216,7 +265,7 @@
                         </button>
                     </div>
                     <div class="payment-block--timeout">
-                        Предложение от владельца жилья будет действовать еще <span>30 минут</span>
+                        Для внесения предоплаты осталось <span>30 минут</span>. После этого предложение брони аннулируется.
                     </div>
                 </div>
                 <div class="payment-coupon js-payment-coupon">
@@ -277,23 +326,12 @@
                 </div>
                 <div class="share-link mobile">
                     <div class="share-link--btn">
-                        <button class="btn-share-link js-btn-share-link">
+                        <button class="btn-share-link">
                             <span>
                                 <img src="images/share-link.svg" alt="">
                                 Поделиться ссылкой на оплату
                             </span>
                         </button>
-                        <div class="share-link--modal js-share-link--modal">
-                            <script src="https://yastatic.net/es5-shims/0.0.2/es5-shims.min.js"></script>
-                            <script src="https://yastatic.net/share2/share.js"></script>
-                            <div class="ya-share2" data-services="vkontakte,facebook,odnoklassniki,twitter"></div>
-                            <div>
-                                <button class="btn js-copy-url">Скопировать ссылку</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="share-link--text">
-                        Оплатить счет может любой, у кого есть эта ссылка. Регистрация на Суточно.ру не требуется. Вы по-прежнему можете воспользоваться другими способами оплаты.
                     </div>
                 </div>
             </div>
@@ -314,9 +352,8 @@
         </div>
     </div>
 
-
-    <div class="modal">
-        <div class="modal--bg"></div>
+    <div class="modal js-refuse-pay-modal">
+        <div class="modal--bg js-refuse-pay-close-modal"></div>
         <div class="modal--window">
             <div class="modal--header">
                 Отменить оплату через Сбербанк Онлайн?
@@ -328,15 +365,13 @@
                 <button class="btn">
                     Да, отменить
                 </button>
-                <button class="btn blue">
+                <button class="btn blue js-refuse-pay-close-modal">
                     Нет
                 </button>
             </div>
-            <div class="modal--close"></div>
+            <div class="modal--close js-refuse-pay-close-modal"></div>
         </div>
     </div>
-
-
 
     <script src="scripts/app.js"></script>
     </body>

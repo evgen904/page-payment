@@ -35,27 +35,27 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="1500" />
-          <entry key="js" value="215" />
-          <entry key="scss" value="4115" />
+          <entry key="html" value="1727" />
+          <entry key="js" value="642" />
+          <entry key="scss" value="4422" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="1500" />
-          <entry key="JavaScript" value="215" />
-          <entry key="SCSS" value="4115" />
+          <entry key="HTML" value="1727" />
+          <entry key="JavaScript" value="642" />
+          <entry key="SCSS" value="4422" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="233" column="46" selection-start-line="233" selection-start-column="32" selection-end-line="233" selection-end-column="46" />
+            <state relative-caret-position="507">
+              <caret line="100" column="42" lean-forward="true" selection-start-line="100" selection-start-column="42" selection-end-line="100" selection-end-column="42" />
               <folding>
                 <element signature="n#style#0;n#g#0;n#svg#0;n#div#0;n#div#3;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#g#0;n#g#0;n#g#0;n#g#0;n#svg#0;n#div#0;n#div#3;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -84,17 +84,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/styles/scss/init.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="502">
-              <caret line="478" column="17" selection-start-line="478" selection-start-column="17" selection-end-line="478" selection-end-column="17" />
+            <state relative-caret-position="219">
+              <caret line="164" column="32" lean-forward="true" selection-start-line="164" selection-start-column="32" selection-end-line="164" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/scripts/src/_includes/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+            <state relative-caret-position="559">
+              <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
             </state>
           </provider>
         </entry>
@@ -103,24 +103,10 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>fade-0d572015-9ffd-4f95-892d-aa31ec314afa</find>
-      <find>применить бонусы</find>
-      <find>checkbox</find>
-      <find>apply-coupon</find>
-      <find>К оплат</find>
-      <find>латить счет может любой, у</find>
-      <find>.btn</find>
-      <find>45</find>
-      <find>Бронирование № 639</find>
-      <find>rota</find>
-      <find>&amp;:after, &amp;:before {</find>
-      <find>booke</find>
-      <find>inner-wrapper</find>
       <find>@media</find>
       <find>@media all and (max-width:</find>
       <find>media</find>
       <find>order-payment</find>
-      <find>payment-methods</find>
       <find>btn-green full-width</find>
       <find>payment-block</find>
       <find>payment-processing</find>
@@ -133,6 +119,20 @@
       <find>booked-object</find>
       <find>Промокод</find>
       <find>payment-coupon</find>
+      <find>.content</find>
+      <find>Средства на счету</find>
+      <find>Предложение от владельца жилья буде</find>
+      <find>Отказаться от платежа</find>
+      <find>js-refuse-pay-close-modal</find>
+      <find>inline-flex</find>
+      <find>modal</find>
+      <find>js-booked-object-toggl</find>
+      <find>payment-methods</find>
+      <find>all-ways</find>
+      <find>payment-selection</find>
+      <find>js-btn-share-link</find>
+      <find>js-copy-url</find>
+      <find>js-show-payment-methods</find>
     </findStrings>
     <replaceStrings>
       <replace>fade-loader</replace>
@@ -145,8 +145,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/app/styles/scss/general/_reset.scss" />
-        <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/styles/scss/init.scss" />
+        <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/scripts/src/_includes/main.js" />
       </list>
     </option>
@@ -172,6 +172,7 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
+    <option name="y" value="2" />
     <option name="width" value="1936" />
     <option name="height" value="1047" />
   </component>
@@ -223,7 +224,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../searchapp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../sutochno-components" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -250,12 +251,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600690570875</updated>
-      <workItem from="1600690575224" duration="33117000" />
+      <workItem from="1600690575224" duration="48216000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33117000" />
+    <option name="totallyTimeSpent" value="48216000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -267,8 +268,8 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" sideWeight="0.49947312" visible="true" weight="0.29284164" />
-      <window_info anchor="bottom" id="Event Log" sideWeight="0.50052685" side_tool="true" visible="true" weight="0.29284164" />
+      <window_info anchor="bottom" id="Terminal" sideWeight="0.49947312" visible="true" weight="0.14642082" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.50052685" side_tool="true" weight="0.2407809" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -295,10 +296,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/src/_includes/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="559">
+          <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/scss/init.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="164" column="32" lean-forward="true" selection-start-line="164" selection-start-column="32" selection-end-line="164" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="233" column="46" selection-start-line="233" selection-start-column="32" selection-end-line="233" selection-end-column="46" />
+        <state relative-caret-position="507">
+          <caret line="100" column="42" lean-forward="true" selection-start-line="100" selection-start-column="42" selection-end-line="100" selection-end-column="42" />
           <folding>
             <element signature="n#style#0;n#g#0;n#svg#0;n#div#0;n#div#3;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#g#0;n#g#0;n#g#0;n#g#0;n#svg#0;n#div#0;n#div#3;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -320,20 +335,6 @@
             <element signature="n#style#0;n#g#0;n#g#8;n#g#0;n#g#0;n#svg#0;n#div#0;n#div#3;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#path#0;n#g#0;n#g#8;n#g#0;n#g#0;n#svg#0;n#div#0;n#div#3;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/scss/init.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="478" column="17" selection-start-line="478" selection-start-column="17" selection-end-line="478" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/src/_includes/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
         </state>
       </provider>
     </entry>
